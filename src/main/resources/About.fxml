@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="237.0" prefWidth="427.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AboutController">
+   <children>
+      <Label layoutX="119.0" layoutY="99.0" text="Text Editor" textFill="#680000" AnchorPane.bottomAnchor="98.0" AnchorPane.leftAnchor="119.0" AnchorPane.rightAnchor="117.0" AnchorPane.topAnchor="99.0">
+         <font>
+            <Font name="FreeSans Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="131.0" layoutY="189.0" prefHeight="34.0" prefWidth="167.0" text="Copyright (C) : 2022 Dep9." AnchorPane.bottomAnchor="14.0" AnchorPane.topAnchor="189.0" />
+      <Label layoutX="194.0" layoutY="147.0" text="v1.0..0" />
+      <ImageView fitHeight="88.0" fitWidth="104.0" layoutX="171.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/accessories-text-editor-icon.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
